@@ -142,3 +142,16 @@
     position: relative;
   }
   
+  .wave-circle {
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .emitter-point {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Optional: Add a subtle glow effect to the waves */
+  circle[stroke="hsl(var(--primary))"] {
+    filter: drop-shadow(0 0 2px hsl(var(--primary)));
+  }
+  
