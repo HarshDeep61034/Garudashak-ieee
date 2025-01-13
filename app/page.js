@@ -1,5 +1,5 @@
 "use client"
-import { Shield, Plane, Car, Ship, Star, Heart, Briefcase, Code, Zap, ArrowsUpDown, UserCheck, Wallet, Radio, Radar, AlertTriangle, Eye, Signal, Lock } from "lucide-react";
+import { Shield, Plane, Car, Ship, Star, Heart, Briefcase, Code, Zap, ArrowsUpDown, UserCheck, Wallet, Radio, Radar, AlertTriangle, Eye, Signal, Lock, Brain } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import "@/app/simulation/animation.css"
@@ -66,7 +66,7 @@ function App() {
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover"
-            src="https://img.freepik.com/free-photo/3d-drone-flying-ocean-with-sunset-sky_1048-8182.jpg?t=st=1736746941~exp=1736750541~hmac=811d77018a310cb35ad19891ef6b717135dcc00f4bbd7e04aecdf0076d1ea98e&w=1380"
+            src="https://images.stockcake.com/public/d/4/c/d4ce73dd-e563-47cb-a466-8796a77b9617_large/sunset-drone-flight-stockcake.jpg"
             alt="Security Background"
           />
           <div className="absolute inset-0 bg-gray-900 opacity-75"></div>
@@ -141,7 +141,7 @@ function App() {
             <FeatureCard
               icon={<Wallet className="h-12 w-12 text-blue-600" />}
               title="Cost Effective"
-              description="Unlike conventional systems, which cost more than two million dollars every drone, Garudakshak offers a solution with an infinite capacity, low cost per kill, and ready for manufacturing."
+              description="Unlike conventional systems, which cost more than 3 million dollars per unit of anti drone system, Garudakshak offers a solution with an infinite capacity, low cost per kill, and ready for manufacturing."
             />
           </div>
         </div>
@@ -179,7 +179,7 @@ function App() {
             <div className="mt-10 lg:mt-0">
               <img
                 className="rounded-lg shadow-xl"
-                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZHJvbmUlMjBkZXRlY3Rpb258ZW58MHx8MHx8fDA%3D"
                 alt="Drone Defense System"
               />
             </div>
@@ -194,26 +194,24 @@ function App() {
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
               Our Security Solutions
             </h2>
-            <p className="mt-4 text-lg text-gray-500">
-              Comprehensive protection across air, land, and sea
-            </p>
+            
           </div>
 
           <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-3">
             <ServiceCard
-              icon={<Plane className="h-12 w-12 text-blue-600" />}
-              title="Air Defense"
-              description="Comprehensive drone detection and countermeasure systems protecting against unauthorized aerial intrusions. Features AI-powered tracking and automated response protocols."
+              icon={<Radar className="h-12 w-12 text-blue-600" />}
+              title="Hybrid Detection System "
+              description="A hybrid detection system using phased array systems and visual-based methods. This combines radar and visual tracking technologies to enhance the accuracy of drone detection"
             />
             <ServiceCard
-              icon={<Car className="h-12 w-12 text-blue-600" />}
-              title="Land"
-              description="Advanced CCTV capturing visual data, distinguishing movement patterns and questioning change"
+              icon={<Brain className="h-12 w-12 text-blue-600" />}
+              title="AI powered"
+              description="AI and machine learning techniques are employed to differentiate drones from other objects, improving the precision in identifying unauthorized drones."
             />
             <ServiceCard
-              icon={<Ship className="h-12 w-12 text-blue-600" />}
-              title="Sea"
-              description="Greater precision in identifying and responding to potential threats both above and below sea-level"
+              icon={<Zap className="h-12 w-12 text-blue-600" />}
+              title="Modern Technology"
+              description="Modern technologies like jamming, spoofing, high-power microwave (HPM), and other advanced electronic warfare methods are used to neutralize drones by disrupting their communication and control systems."
             />
           </div>
         </div>
@@ -389,6 +387,8 @@ function App() {
           </div>
         </div>
 
+        
+
         {/* Call to Action */}
         <div className="bg-blue-600">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -421,7 +421,7 @@ function App() {
               <p className="mt-4 text-gray-400">
                 Securing Skies, Defending Horizons
                 <br />
-                © 2025 Garudashak Ltd
+                © 2025 Garudashak
                 <br />
                 All rights reserved.
               </p>
@@ -455,13 +455,13 @@ function App() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <ul className="mt-4 space-y-2">
                 <li className="text-gray-400">
-                  <strong>Email:</strong> info@garudashak.com
+                  <strong>Email:</strong> B21021@students.iitmandi.ac.in
                 </li>
                 <li className="text-gray-400">
-                  <strong>Phone:</strong> +1 (555) 123-4567
+                  <strong>Phone:</strong> +91 8209706419
                 </li>
                 <li className="text-gray-400">
-                  <strong>24/7 Support:</strong> +1 (555) 999-9999
+                  <strong>24/7 Support:</strong> +91 8209706419
                 </li>
               </ul>
             </div>
@@ -531,4 +531,3 @@ function SpecCard({ icon, title, specs }) {
 }
 
 export default App;
-
