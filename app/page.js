@@ -194,9 +194,7 @@ function App() {
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
               Our Security Solutions
             </h2>
-            <p className="mt-4 text-lg text-gray-500">
-              aaaaaaaaa
-            </p>
+            
           </div>
 
           <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-3">
