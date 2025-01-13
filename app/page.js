@@ -141,7 +141,7 @@ function App() {
             <FeatureCard
               icon={<Wallet className="h-12 w-12 text-blue-600" />}
               title="Cost Effective"
-              description="Unlike conventional systems, which cost more than two million dollars every drone, Garudakshak offers a solution with an infinite capacity, low cost per kill, and ready for manufacturing."
+              description="Unlike conventional systems, which cost more than 3 million dollars per unit of anti drone system, Garudakshak offers a solution with an infinite capacity, low cost per kill, and ready for manufacturing."
             />
           </div>
         </div>
@@ -195,25 +195,25 @@ function App() {
               Our Security Solutions
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              Comprehensive protection across air, land, and sea
+              aaaaaaaaa
             </p>
           </div>
 
           <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-3">
             <ServiceCard
               icon={<Plane className="h-12 w-12 text-blue-600" />}
-              title="Air Defense"
-              description="Comprehensive drone detection and countermeasure systems protecting against unauthorized aerial intrusions. Features AI-powered tracking and automated response protocols."
+              title="Hybrid Detection System "
+              description="A hybrid detection system using phased array systems and visual-based methods. This combines radar and visual tracking technologies to enhance the accuracy of drone detection"
             />
             <ServiceCard
               icon={<Car className="h-12 w-12 text-blue-600" />}
-              title="Land"
-              description="Advanced CCTV capturing visual data, distinguishing movement patterns and questioning change"
+              title="AI powered"
+              description="AI and machine learning techniques are employed to differentiate drones from other objects, improving the precision in identifying unauthorized drones."
             />
             <ServiceCard
               icon={<Ship className="h-12 w-12 text-blue-600" />}
-              title="Sea"
-              description="Greater precision in identifying and responding to potential threats both above and below sea-level"
+              title="Modern Technology"
+              description="Modern technologies like jamming, spoofing, high-power microwave (HPM), and other advanced electronic warfare methods are used to neutralize drones by disrupting their communication and control systems."
             />
           </div>
         </div>
@@ -421,7 +421,7 @@ function App() {
               <p className="mt-4 text-gray-400">
                 Securing Skies, Defending Horizons
                 <br />
-                © 2025 Garudashak Ltd
+                © 2025 Garudashak
                 <br />
                 All rights reserved.
               </p>
@@ -455,13 +455,13 @@ function App() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <ul className="mt-4 space-y-2">
                 <li className="text-gray-400">
-                  <strong>Email:</strong> info@garudashak.com
+                  <strong>Email:</strong> B21021@students.iitmandi.ac.in
                 </li>
                 <li className="text-gray-400">
-                  <strong>Phone:</strong> +1 (555) 123-4567
+                  <strong>Phone:</strong> +91 8209706419
                 </li>
                 <li className="text-gray-400">
-                  <strong>24/7 Support:</strong> +1 (555) 999-9999
+                  <strong>24/7 Support:</strong> +91 8209706419
                 </li>
               </ul>
             </div>
