@@ -2,7 +2,7 @@
 import { Shield, Plane, Car, Ship, Star, Heart, Briefcase, Code, Zap, ArrowsUpDown, UserCheck, Wallet, Radio, Radar, AlertTriangle, Eye, Signal, Lock } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import "./animation.css"
+import "@/app/simulation/animation.css"
 
 function App() {
   return (
