@@ -66,7 +66,7 @@ function App() {
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover"
-            src="https://img.freepik.com/free-photo/3d-drone-flying-ocean-with-sunset-sky_1048-8182.jpg?t=st=1736746941~exp=1736750541~hmac=811d77018a310cb35ad19891ef6b717135dcc00f4bbd7e04aecdf0076d1ea98e&w=1380"
+            src="https://images.stockcake.com/public/d/4/c/d4ce73dd-e563-47cb-a466-8796a77b9617_large/sunset-drone-flight-stockcake.jpg"
             alt="Security Background"
           />
           <div className="absolute inset-0 bg-gray-900 opacity-75"></div>
@@ -179,7 +179,7 @@ function App() {
             <div className="mt-10 lg:mt-0">
               <img
                 className="rounded-lg shadow-xl"
-                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZHJvbmUlMjBkZXRlY3Rpb258ZW58MHx8MHx8fDA%3D"
                 alt="Drone Defense System"
               />
             </div>
@@ -387,6 +387,8 @@ function App() {
           </div>
         </div>
 
+        
+
         {/* Call to Action */}
         <div className="bg-blue-600">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -529,4 +531,3 @@ function SpecCard({ icon, title, specs }) {
 }
 
 export default App;
-
