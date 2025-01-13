@@ -1,5 +1,5 @@
 "use client"
-import { Shield, Plane, Car, Ship, Star, Heart, Briefcase, Code, Zap, ArrowsUpDown, UserCheck, Wallet, Radio, Radar, AlertTriangle, Eye, Signal, Lock } from "lucide-react";
+import { Shield, Plane, Car, Ship, Star, Heart, Briefcase, Code, Zap, ArrowsUpDown, UserCheck, Wallet, Radio, Radar, AlertTriangle, Eye, Signal, Lock, Brain } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import "./animation.css"
@@ -199,17 +199,17 @@ function App() {
 
           <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-3">
             <ServiceCard
-              icon={<Plane className="h-12 w-12 text-blue-600" />}
+              icon={<Radar className="h-12 w-12 text-blue-600" />}
               title="Hybrid Detection System "
               description="A hybrid detection system using phased array systems and visual-based methods. This combines radar and visual tracking technologies to enhance the accuracy of drone detection"
             />
             <ServiceCard
-              icon={<Car className="h-12 w-12 text-blue-600" />}
+              icon={<Brain className="h-12 w-12 text-blue-600" />}
               title="AI powered"
               description="AI and machine learning techniques are employed to differentiate drones from other objects, improving the precision in identifying unauthorized drones."
             />
             <ServiceCard
-              icon={<Ship className="h-12 w-12 text-blue-600" />}
+              icon={<Zap className="h-12 w-12 text-blue-600" />}
               title="Modern Technology"
               description="Modern technologies like jamming, spoofing, high-power microwave (HPM), and other advanced electronic warfare methods are used to neutralize drones by disrupting their communication and control systems."
             />
