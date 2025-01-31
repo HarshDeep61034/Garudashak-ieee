@@ -77,7 +77,7 @@ function App() {
           </h1>
          
           <p className="mt-6 text-xl text-gray-300 max-w-3xl">
-          A trusted partner in drone defense and security. Our cutting-edge technology safeguards what matters most. The Garudakshak system leverages multiple sensors, phased array technology, and visual tracking to neutralize drone threats. Our comprehensive security solutions protect vital assets from various threats.
+          A partner in drone defense and security. Our cutting-edge technology safeguards what matters most. The Garudakshak system leverages multiple sensors, phased array technology, and visual tracking to neutralize drone threats. Our comprehensive security solutions protect vital assets from various threats.
           </p>
           <div className="mt-10 space-x-4">
             <Link
